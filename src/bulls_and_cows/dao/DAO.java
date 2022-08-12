@@ -82,13 +82,14 @@ public class DAO {
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
-		} finally {
+		} 
+//		finally {
 //			try {
 //				resultSet.close();
 //			} catch (SQLException e) {
 //				e.printStackTrace();
 //			}
-		}
+//		}
 		return false;
 	}
 
